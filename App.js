@@ -2,8 +2,8 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import {NavigationContainer, StackActions} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
-import CovidDetailsPage from './src/vagner/pages/CovidDetailsPage';
-import CovidPage  from './src/vagner/pages/CovidPage'
+import CovidDetailsPage from './src/robson/pages/CovidDetailsPage';
+import CovidPage  from './src/robson/pages/CovidPage'
 const Stack = createStackNavigator();
 
 function App(){
